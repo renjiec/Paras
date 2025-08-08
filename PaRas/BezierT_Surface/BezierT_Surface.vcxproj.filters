@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="GLProgram.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="soft_ras\vaobezierT.h">
+      <Filter>soft_ras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{2e6e341d-3c72-432e-aff5-71626735b4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="soft_ras">
+      <UniqueIdentifier>{bd5dbddb-746c-4273-94f0-c1c153a01ecd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\sampling_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\sampling_tcs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\sampling_tes.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\sampling_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\screen.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\screen.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\compute_vt.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\compute_coeff.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\compute_recovery.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\compute_iter.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="recovery_shader\recovery_frag.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="recovery_shader\recovery_tcs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="recovery_shader\recovery_tes.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="recovery_shader\recovery_vert.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
